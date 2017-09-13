@@ -2,5 +2,5 @@
 # tasks file for ping
 
  - name: ping host
-   command: echo successful
+   ping: 
 
