@@ -1,6 +1,6 @@
 ---
 # tasks file for ping
 
- - name: ping host
+ - name: pinging host
    ping: 
 
