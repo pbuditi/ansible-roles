@@ -1,0 +1,8 @@
+---
+# tasks file for acuo-compose
+
+- name: clone acuo-devops rep
+  git: 
+    repo: https://github.com/anaxo-io/acuo-devops.git
+    dest: /home/ubuntu/projects
+    version: develop
